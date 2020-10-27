@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE6CF60A2547FBA400939942 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF6082547FBA400939942 /* TreeNode.swift */; };
+		BE6CF60B2547FBA400939942 /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF6092547FBA400939942 /* BinarySearchTree.swift */; };
 		BE725BFB25466D450030E0EF /* ArrayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725BF925466D450030E0EF /* ArrayList.swift */; };
 		BE725BFC25466D450030E0EF /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725BFA25466D450030E0EF /* Stack.swift */; };
 		BE725C0025466ED10030E0EF /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725BFF25466ED10030E0EF /* Queue.swift */; };
@@ -14,8 +16,6 @@
 		BE725C0625466EE10030E0EF /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725C0325466EE10030E0EF /* List.swift */; };
 		BE725C0725466EE10030E0EF /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725C0425466EE10030E0EF /* ListNode.swift */; };
 		BE7A21D12542D4E3005A6E0B /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A21D02542D4E3005A6E0B /* main.swift */; };
-		BE7A21D92542D4FC005A6E0B /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A21D82542D4FC005A6E0B /* TreeNode.swift */; };
-		BE7A21DD2542E107005A6E0B /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A21DC2542E107005A6E0B /* BinarySearchTree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +31,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE6CF6082547FBA400939942 /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		BE6CF6092547FBA400939942 /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 		BE725BF925466D450030E0EF /* ArrayList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayList.swift; sourceTree = "<group>"; };
 		BE725BFA25466D450030E0EF /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BE725BFF25466ED10030E0EF /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
@@ -39,8 +41,6 @@
 		BE725C0425466EE10030E0EF /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		BE7A21CD2542D4E3005A6E0B /* 08二叉树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "08二叉树"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE7A21D02542D4E3005A6E0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		BE7A21D82542D4FC005A6E0B /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
-		BE7A21DC2542E107005A6E0B /* BinarySearchTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +96,8 @@
 				BE725BFE25466ECA0030E0EF /* 队列 */,
 				BE725BF825466D390030E0EF /* 栈 */,
 				BE7A21D02542D4E3005A6E0B /* main.swift */,
-				BE7A21D82542D4FC005A6E0B /* TreeNode.swift */,
-				BE7A21DC2542E107005A6E0B /* BinarySearchTree.swift */,
+				BE6CF6092547FBA400939942 /* BinarySearchTree.swift */,
+				BE6CF6082547FBA400939942 /* TreeNode.swift */,
 			);
 			path = "08二叉树";
 			sourceTree = "<group>";
@@ -164,10 +164,10 @@
 				BE725C0725466EE10030E0EF /* ListNode.swift in Sources */,
 				BE725C0025466ED10030E0EF /* Queue.swift in Sources */,
 				BE725BFC25466D450030E0EF /* Stack.swift in Sources */,
+				BE6CF60B2547FBA400939942 /* BinarySearchTree.swift in Sources */,
 				BE725BFB25466D450030E0EF /* ArrayList.swift in Sources */,
-				BE7A21D92542D4FC005A6E0B /* TreeNode.swift in Sources */,
-				BE7A21DD2542E107005A6E0B /* BinarySearchTree.swift in Sources */,
 				BE725C0525466EE10030E0EF /* LinkedList.swift in Sources */,
+				BE6CF60A2547FBA400939942 /* TreeNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

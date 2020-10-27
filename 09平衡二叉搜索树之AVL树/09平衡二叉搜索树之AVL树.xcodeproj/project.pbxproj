@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE6CF5D72547D27200939942 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF5D02547D27200939942 /* Stack.swift */; };
+		BE6CF5D82547D27200939942 /* ArrayList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF5D12547D27200939942 /* ArrayList.swift */; };
+		BE6CF5D92547D27200939942 /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF5D32547D27200939942 /* List.swift */; };
+		BE6CF5DA2547D27200939942 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF5D42547D27200939942 /* Queue.swift */; };
+		BE6CF5DB2547D27200939942 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF5D52547D27200939942 /* ListNode.swift */; };
+		BE6CF5DC2547D27200939942 /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE6CF5D62547D27200939942 /* LinkedList.swift */; };
+		BE725C192546CA1C0030E0EF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725C182546CA1C0030E0EF /* main.swift */; };
+		BE725C2A2546CA2E0030E0EF /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725C202546CA2E0030E0EF /* TreeNode.swift */; };
+		BE725C2B2546CA2E0030E0EF /* BinarySearchTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725C212546CA2E0030E0EF /* BinarySearchTree.swift */; };
+		BE725C352546CA5C0030E0EF /* AVLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE725C342546CA5C0030E0EF /* AVLNode.swift */; };
+		BEF15B0A2546E62D008837F4 /* AVLTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF15B092546E62D008837F4 /* AVLTree.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE725C132546CA1C0030E0EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE6CF5D02547D27200939942 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BE6CF5D12547D27200939942 /* ArrayList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayList.swift; sourceTree = "<group>"; };
+		BE6CF5D32547D27200939942 /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		BE6CF5D42547D27200939942 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		BE6CF5D52547D27200939942 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		BE6CF5D62547D27200939942 /* LinkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		BE725C152546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "09平衡二叉搜索树之AVL树"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE725C182546CA1C0030E0EF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BE725C202546CA2E0030E0EF /* TreeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
+		BE725C212546CA2E0030E0EF /* BinarySearchTree.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearchTree.swift; sourceTree = "<group>"; };
+		BE725C342546CA5C0030E0EF /* AVLNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLNode.swift; sourceTree = "<group>"; };
+		BEF15B092546E62D008837F4 /* AVLTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AVLTree.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE725C122546CA1C0030E0EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE6CF5CF2547D27200939942 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				BE6CF5D02547D27200939942 /* Stack.swift */,
+				BE6CF5D12547D27200939942 /* ArrayList.swift */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		BE6CF5D22547D27200939942 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+				BE6CF5D32547D27200939942 /* List.swift */,
+				BE6CF5D42547D27200939942 /* Queue.swift */,
+				BE6CF5D52547D27200939942 /* ListNode.swift */,
+				BE6CF5D62547D27200939942 /* LinkedList.swift */,
+			);
+			path = "队列";
+			sourceTree = "<group>";
+		};
+		BE725C0C2546CA1C0030E0EF = {
+			isa = PBXGroup;
+			children = (
+				BE725C172546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */,
+				BE725C162546CA1C0030E0EF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE725C162546CA1C0030E0EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE725C152546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE725C172546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */ = {
+			isa = PBXGroup;
+			children = (
+				BE6CF5D22547D27200939942 /* 队列 */,
+				BE6CF5CF2547D27200939942 /* 栈 */,
+				BE725C332546CA3A0030E0EF /* 二叉树 */,
+				BE725C182546CA1C0030E0EF /* main.swift */,
+			);
+			path = "09平衡二叉搜索树之AVL树";
+			sourceTree = "<group>";
+		};
+		BE725C332546CA3A0030E0EF /* 二叉树 */ = {
+			isa = PBXGroup;
+			children = (
+				BE725C202546CA2E0030E0EF /* TreeNode.swift */,
+				BE725C342546CA5C0030E0EF /* AVLNode.swift */,
+				BE725C212546CA2E0030E0EF /* BinarySearchTree.swift */,
+				BEF15B092546E62D008837F4 /* AVLTree.swift */,
+			);
+			path = "二叉树";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE725C142546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE725C1C2546CA1C0030E0EF /* Build configuration list for PBXNativeTarget "09平衡二叉搜索树之AVL树" */;
+			buildPhases = (
+				BE725C112546CA1C0030E0EF /* Sources */,
+				BE725C122546CA1C0030E0EF /* Frameworks */,
+				BE725C132546CA1C0030E0EF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09平衡二叉搜索树之AVL树";
+			productName = "09平衡二叉搜索树之AVL树";
+			productReference = BE725C152546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE725C0D2546CA1C0030E0EF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					BE725C142546CA1C0030E0EF = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = BE725C102546CA1C0030E0EF /* Build configuration list for PBXProject "09平衡二叉搜索树之AVL树" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE725C0C2546CA1C0030E0EF;
+			productRefGroup = BE725C162546CA1C0030E0EF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE725C142546CA1C0030E0EF /* 09平衡二叉搜索树之AVL树 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE725C112546CA1C0030E0EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE6CF5D82547D27200939942 /* ArrayList.swift in Sources */,
+				BE6CF5DB2547D27200939942 /* ListNode.swift in Sources */,
+				BE6CF5D92547D27200939942 /* List.swift in Sources */,
+				BE725C192546CA1C0030E0EF /* main.swift in Sources */,
+				BE725C2A2546CA2E0030E0EF /* TreeNode.swift in Sources */,
+				BE725C352546CA5C0030E0EF /* AVLNode.swift in Sources */,
+				BE725C2B2546CA2E0030E0EF /* BinarySearchTree.swift in Sources */,
+				BE6CF5D72547D27200939942 /* Stack.swift in Sources */,
+				BE6CF5DA2547D27200939942 /* Queue.swift in Sources */,
+				BE6CF5DC2547D27200939942 /* LinkedList.swift in Sources */,
+				BEF15B0A2546E62D008837F4 /* AVLTree.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE725C1A2546CA1C0030E0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE725C1B2546CA1C0030E0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BE725C1D2546CA1C0030E0EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VEPTEB4EM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE725C1E2546CA1C0030E0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9VEPTEB4EM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE725C102546CA1C0030E0EF /* Build configuration list for PBXProject "09平衡二叉搜索树之AVL树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE725C1A2546CA1C0030E0EF /* Debug */,
+				BE725C1B2546CA1C0030E0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE725C1C2546CA1C0030E0EF /* Build configuration list for PBXNativeTarget "09平衡二叉搜索树之AVL树" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE725C1D2546CA1C0030E0EF /* Debug */,
+				BE725C1E2546CA1C0030E0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE725C0D2546CA1C0030E0EF /* Project object */;
+}
